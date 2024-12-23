@@ -5,62 +5,21 @@
     box-sizing: border-box!important;
 }
 .carousel-indicators img {
-    width: 45px!important;
-    height: 45px!important;
+    width: 33px!important;
+    height: 33px!important;
     margin: 0 5px!important;
+}
+.carousel-indicators img.active{
+    transform: scale(1.5);
+}
+.w-60{
+    width:60%
 }
 header{
     height:100vh;
     background:url('img/headerbg.jpg') 60% 50%/cover;
 }
-/* .slidtext{
-    display: flex;
-    justify-content: center;
-    height:270px;
-    text-align: center;
-}
-.slidtext p{
-    width: 777px;
-    color:#fff;
-}
-.quote{
-    display: flex;
-    justify-content: center;
-    padding-top:5rem;
-    color:#fff;
-}
-.fa-quote-right{
-    padding-bottom: 40px;
-    font-size:2.2em;
-}
-.carousel-indicators{
-display: flex;
-width:320px;
-margin: auto;
-padding-top: 0;
-align-items: center;
-bottom:2rem;
-position:absolute;
-}
-.carousel-indicators img:hover{
-    transform: scale(1.6);
-}
-.carousel-caption{
-    bottom:3rem;
-}
-.carousel-control-prev,.carousel-control-next{
-    position:absolute;
-    top:15px;
-} */
-/* .carousel-indicators img {
-    width: 45px!important;
-    height: 45px!important;
-    margin: 0 5px!important;
-}
-.carousel-indicators img.active, img:hover {
-    transform: scale(1.3);
-    transition: .3s;
-} */
+
 .bg-footer{background-color: #072035;}
 .bg-mavi { background-color: var(--mavi) }
 .bg-boz{background-color: #f1f1f1;}
